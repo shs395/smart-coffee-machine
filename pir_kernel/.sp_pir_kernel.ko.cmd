@@ -1,0 +1,1 @@
+cmd_/home/pi/sysprog/sysproject/pir_kernel/sp_pir_kernel.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/sysprog/sysproject/pir_kernel/sp_pir_kernel.ko /home/pi/sysprog/sysproject/pir_kernel/sp_pir_kernel.o /home/pi/sysprog/sysproject/pir_kernel/sp_pir_kernel.mod.o ;  true

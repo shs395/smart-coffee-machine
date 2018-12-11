@@ -1,0 +1,1 @@
+cmd_/home/pi/sysprog/sysproject/hello.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/sysprog/sysproject/hello.ko /home/pi/sysprog/sysproject/hello.o /home/pi/sysprog/sysproject/hello.mod.o ;  true
